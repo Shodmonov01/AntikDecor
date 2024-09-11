@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /sitemap.xml
+Disallow: /robots.txt
+Disallow: /browserconfig.xml
+Disallow: /favicon.svg
+Disallow: /manifest.json
+

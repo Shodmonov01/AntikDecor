@@ -1,0 +1,18 @@
+.hamburger {
+	display: flex;
+	flex-direction: column;
+	gap: 2.8px;
+
+	div {
+		width: 25px;
+		height: 2.8px;
+		background-color: #ea5544;
+		border-radius: 50px;
+	}
+}
+
+.hamburger-white {
+	div {
+		background-color: #fff;
+	}
+}

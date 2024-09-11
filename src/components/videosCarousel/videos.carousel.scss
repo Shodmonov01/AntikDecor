@@ -1,0 +1,83 @@
+.videos-carousel {
+	margin-bottom: 8rem;
+	margin-top: 5rem;
+	.section {
+		padding: 0 2rem;
+	}
+	.swiper {
+		max-width: 420px;
+		.swiper-slide {
+			height: 424px;
+			.videos-carousel__card {
+				position: relative;
+				background-color: #333;
+				background-blend-mode: multiply;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				overflow: hidden;
+				box-shadow: 0px 3px 6px 0px rgba(212, 212, 212, 0.1),
+					0px 10px 10px 0px rgba(212, 212, 212, 0.09),
+					0px 23px 14px 0px rgba(212, 212, 212, 0.05),
+					0px 41px 16px 0px rgba(212, 212, 212, 0.01),
+					0px 64px 18px 0px rgba(212, 212, 212, 0);
+				>img {
+					object-fit: cover;
+					opacity: 0.8;
+					width: 100%;
+					height: 100%;
+					transition: all 150ms linear;
+					transform: scale(1.1);
+				}
+				>span {
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
+					img {
+						width: 100px;
+					}
+				}
+				h3 {
+					font-size: 2rem;
+					stroke-linejoin: 2.3rem;
+					text-align: center;
+					position: absolute;
+					color: #fff;
+					bottom: 3rem;
+					left: 2rem;
+					right: 2rem;
+					text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+				}
+			}
+		}
+	}
+	@media (min-width: 768px) {
+		.section {
+			padding: 0 3rem;
+		}
+		.swiper {
+			max-width: 880px;
+		}
+	}
+	@media (min-width: 1024px) {
+		margin-bottom: 10rem;
+		.section {
+			padding: 0 4rem;
+		}
+		.swiper {
+			max-width: 1165px;
+			.swiper-slide:hover {
+				img {
+					transform: scale(1);
+				}
+			}
+		}
+	}
+	@media (min-width: 1440px) {
+		margin-bottom: 14rem;
+		.swiper {
+			max-width: 1296px;
+		}
+	}
+}

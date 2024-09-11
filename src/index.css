@@ -1,0 +1,5 @@
+.ytp-cued-thumbnail-overlay-image {
+     background-size: contain !important;
+     -webkit-background-size: contain !important;
+     width: 100px !important;
+}

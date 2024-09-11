@@ -1,0 +1,128 @@
+.designer {
+  padding-top: 5rem;
+  .section {
+    padding: 0 2rem;
+  }
+  .designer__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    .designer__content {
+      h2 {
+        margin-bottom: 0;
+        &::before {
+          width: 25%;
+        }
+      }
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      p {
+        font-size: 1.2rem;
+        line-height: 2.04rem;
+        color: #242424;
+        font-weight: 500;
+      }
+    }
+    .designer__gallery {
+      .mySwiper {
+        margin-bottom: 8rem;
+        .swiper-wrapper {
+          display: flex;
+          align-items: center;
+          .swiper-slide {
+            max-width: 424px;
+            height: 485px;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+          .swiper-slide-next,
+          .swiper-slide-prev {
+            height: 303px;
+          }
+        }
+      }
+    }
+    .swiper-btns {
+      display: none;
+    }
+  }
+  @media (min-width: 768px) {
+    .section {
+      padding: 0 4rem;
+    }
+  }
+  @media (min-width: 920px) {
+    padding-top: 10rem;
+    .designer__inner {
+      flex-direction: row;
+      justify-content: space-between;
+      .designer__content {
+        flex: 1;
+        max-width: 626px;
+      }
+      .designer__gallery {
+        flex: 1;
+        max-width: 424px;
+        .swiper-slide {
+          max-width: 352px !important;
+        }
+        .swiper-slide-next {
+          height: 280px !important;
+        }
+      }
+    }
+  }
+  @media (min-width: 1024px) {
+    .designer__inner {
+      .designer__content {
+        gap: 2rem;
+        h2 {
+          &::before {
+            width: 28%;
+          }
+        }
+        p {
+          font-size: 1.5rem;
+          line-height: 2.5rem;
+        }
+      }
+      .designer__gallery {
+        margin-bottom: 10rem;
+        .mySwiper {
+          margin-bottom: 0;
+        }
+      }
+      .swiper-btns {
+        display: flex;
+        justify-content: flex-end;
+        align-items: baseline;
+        gap: 1.8rem;
+        margin-right: 7.2rem;
+        margin-top: 3rem;
+        .prev-btn,
+        .next-btn {
+          .arrow {
+            transition: all 150ms linear;
+          }
+          &:hover {
+            cursor: pointer;
+            .arrow {
+              fill: #ea5544;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 1440px) {
+    .designer__inner {
+      .designer__gallery {
+        margin-bottom: 12.6rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "catalog": [
+    {
+      "id": 7,
+      "category": "часы и научные приборы",
+      "img": "./images/catalog_1.png",
+      "imgSize": "normal",
+      "title": "ЧАСЫ И НАУЧНЫЕ <br/> ПРИБОРЫ"
+    },
+
+    {
+      "id": 1,
+      "img": "./images/catalog_2.png",
+      "imgSize": "vertical",
+      "title": "ЖИВОПИСЬ ГРАФИКА "
+    },
+    {
+      "id": 6,
+      "img": "./images/catalog_3.png",
+      "imgSize": "horizontal",
+      "title": "МЕБЕЛЬ"
+    },
+    {
+      "id": 10,
+      "img": "./images/catalog_7.png",
+      "imgSize": "normal",
+      "title": "Гравюры, литографии"
+    },
+
+    {
+      "id": 3,
+      "img": "./images/catalog_10.png",
+      "imgSize": "normal",
+      "title": "Бронза"
+    },
+    {
+      "id": 82,
+      "img": "./images/catalog_13.png",
+      "imgSize": "horizontal",
+      "title": "столовые приборы и посуда"
+    },
+
+    {
+      "id": 8,
+      "img": "./images/catalog_14.jpg",
+      "imgSize": "normal",
+      "title": "ПРЕДМЕТЫ  АНТИКВАРНОГО ДЕКОРА"
+    },
+    {
+      "id": 9,
+      "img": "./images/catalog_5.png",
+      "imgSize": "normal",
+      "title": "Искусство Востока и  стран Африки"
+    },
+    {
+      "id": 5,
+      "img": "./images/catalog_9.png",
+      "imgSize": "normal",
+      "title": "ФАРФОР"
+    },
+
+    {
+      "id": 4,
+      "img": "./images/catalog_8.png",
+      "imgSize": "normal",
+      "title": "Рамы и Зеркала"
+    },
+    {
+      "id": 80,
+      "img": "./images/catalog_11.png",
+      "imgSize": "normal",
+      "title": "Осветительные приборы"
+    },
+
+    {
+      "id": 40,
+      "img": "./images/catalog_12.png",
+      "imgSize": "normal",
+      "title": "Стекло"
+    },
+    {
+      "id": 2,
+      "img": "./images/catalog_4.png",
+      "imgSize": "normal",
+      "title": "Винный антиквариат"
+    },
+    {
+      "id": 194,
+      "img": "./images/catalog_15.jpg",
+      "imgSize": "normal",
+      "title": "рамы зеркала"
+    },
+    {
+      "id": 195,
+      "img": "./images/catalog_16.jpg",
+      "imgSize": "normal",
+      "title": "Часы"
+    }
+  ],
+  "aboutData": [
+    {
+      "id": 1,
+      "img": "./images/home-about.jpg",
+      "title": "Золотой кувшин рюдрика",
+      "imgSize": "horizontal"
+    },
+    {
+      "id": 2,
+      "img": "./images/about_img_2.png",
+      "title": "Золотой кувшин рюдрика"
+    },
+    {
+      "id": 3,
+      "img": "./images/about_img_3.png",
+      "title": "Золотой кувшин рюдрика"
+    },
+    {
+      "id": 4,
+      "img": "./images/about_img_4.png",
+      "title": "Золотой кувшин рюдрика"
+    },
+    {
+      "id": 5,
+      "img": "./images/about_img_5.png",
+      "title": "Золотой кувшин рюдрика"
+    },
+    {
+      "id": 6,
+      "img": "./images/about_img_6.png",
+      "title": "Золотой кувшин рюдрика",
+      "imgSize": "horizontal"
+    },
+    {
+      "id": 7,
+      "img": "./images/about_img.png",
+      "title": "Золотой кувшин рюдрика"
+    }
+  ],
+  "designer": [
+    {
+      "id": 1,
+      "img": "./images/designer_1.png"
+    },
+    {
+      "id": 2,
+      "img": "./images/designer_1.png"
+    },
+    {
+      "id": 3,
+      "img": "./images/designer_1.png"
+    }
+  ],
+  "metadata": {
+    "home": {
+      "title": "Антикварный магазин в СПб и Москве | AntikDecor  ",
+      "description": "AntikDecor - Широкий ассортимент раритетных товаров на нашем сайте по доступным ценам. Бесплатно оформим ваш интерьер!"
+    },
+    "catalog": {
+      "title": "Каталог антиквариата, раритетных и стариных вещей  | AntikDecor ",
+      "description": "Широкий выбор уникальных и оригинальных товаров: картины, предметы интерьера и искусства разных стран и др."
+    },
+    "about": {
+      "title": "Оригинальные предметы антиквариата из разных стран | AntikDecor",
+      "description": "ANTIKDECOR - дизайнерское оформление интерьеров с использованием предметов старины и антиквариата."
+    },
+    "contact": {
+      "title": "Антикварный магазин старинных вещей | AntikDecor ",
+      "description": "Салон-магазин и гравюрный кабинет в Санкт-Петербурге и Москве. Режим работы. Адреса"
+    },
+    "ArtEast": {
+      "title": "Предметы искусства из Азии и Африки | AntikDecor",
+      "description": "Оригинальный антиквариат стран Востока, Африки и Азии. Широкий выбор в нашем каталоге - AntikDecor"
+    },
+    "antiqueCorkscrews": {
+      "title": "Винный антиквариат и старинные штопоры в Москве и СПб | AntikDecor",
+      "description": "Антикварные штопоры, старинные выдержанные вина и многое другое в нашем каталоге AntikDecor"
+    },
+    "responseGraphics": {
+      "title": "Старинные картины и антикварная живопись, графика в Москве и СПб | AntikDecor ",
+      "description": "AntikDecor - Антикварные российские и европейские картины разных стилей в нашем магазине. "
+    },
+    "engravingLithography": {
+      "title": "Старинные гравюры и литографии | AntikDecor ",
+      "description": "Широкий ассортимент картин различных жанров по приятным ценам в нашем каталоге - AntikDecor"
+    },
+    "glass": {
+      "title": "Стеклянные и фарфоровые антикварные изделия | AntikDecor ",
+      "description": "Оригинальный декор из фарфора и стекла для вашего интерьера от нашего антикварного магазина"
+    },
+    "bronze": {
+      "title": "Неповторимые изделия из бронзы | AntikDecor ",
+      "description": "Широкий выбор антиквариата из бронзы. Только оригинал"
+    },
+    "furnitureMirrors": {
+      "title": "Антикварная мебель и зеркала | AntikDecor ",
+      "description": "Дизайнерские старинные предметы интерьера отличного качества в Москве и СПб от AntikDecor "
+    },
+    "antikdekorItems": {
+      "title": "Антикварный декор хорошего качества в Москве и СПб | AntikDecor ",
+      "description": "Разнообразный ассортимент раритетных предметов декора в AntikDecor. Бесплатно окажем услугу по оформлению Вашего интерьера"
+    },
+    "russian": {
+      "title": "Российские антикварные картины | AntikDecor",
+      "description": "AntikDecor - Большой выбор русской живописи в нашес антикварном салоне! Оформить заявку можно на сайте"
+    },
+    "European": {
+      "title": "Европейская антикварная живопись и графика | AntikDecor",
+      "description": "AntikDecor - В нашем антикварном салоне вы найдёте большой выбор Европейской живописи! Оформляйте на сайте"
+    },
+    "Animalistic": {
+      "title": "Анималистический жанр антикварные картины | AnitkDecor",
+      "description": "AntikDecor - Большой выбор антикварных картин Анималистического жанра! Оформляйте на сайте"
+    },
+    "Botany": {
+      "title": "Антикварная ботаника в Москве и СПб | AntikDecor",
+      "description": "AntikDecor - Большой выбор антикварной ботанической гравюры! Оформить можно на сайте"
+    },
+    "Household": {
+      "title": "Антикварные гравюры бытовые и жанровые сцены | AntikDecor",
+      "description": "AntiDecor - Антикварный салон с большим выбором картин и гравюр любых жанров! Оформить можно на сайте"
+    },
+    "Architecture": {
+      "title": "Антикварные гравюры бытовые и жанровые сцены | AntikDecor",
+      "description": "AntiDecor - Антикварный салон с большим выбором картин и гравюр любых жанров! Оформить можно на сайте"
+    }
+  }
+}

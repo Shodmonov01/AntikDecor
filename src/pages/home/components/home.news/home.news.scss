@@ -1,0 +1,21 @@
+.home-news {
+	margin-bottom: 8rem;
+	.section {
+		padding: 0 2rem;
+	}
+
+	@media (min-width: 768px) {
+		.section {
+			padding: 0 3rem;
+		}
+	}
+	@media (min-width: 1024px) {
+		margin-bottom: 10rem;
+		.section {
+			padding: 0 4rem;
+		}
+	}
+	@media (min-width: 1440px) {
+		margin-bottom: 14rem;
+	}
+}

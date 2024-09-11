@@ -1,0 +1,131 @@
+.news-detail {
+  padding-top: 5rem;
+  .section {
+    padding: 0 2rem;
+  }
+
+  .selected-news {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+
+    .selected-news__content {
+      span {
+        display: block;
+        font-size: 1.2rem;
+        line-height: 1.534rem;
+        font-weight: 700;
+        color: #9b9b9b;
+        margin-bottom: 1rem;
+      }
+
+      h1 {
+        margin-bottom: 1rem;
+
+        &:before {
+          width: 120px;
+        }
+      }
+
+      p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        font-weight: 600;
+        color: #242424;
+        margin-bottom: 1rem;
+      }
+
+      .news__desc {
+        img {
+          width: 100%;
+          object-fit: cover;
+          margin: 1rem 0;
+        }
+      }
+    }
+
+    .selected-news__img {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+      margin-top: 2rem;
+      height: 485px;
+      position: relative;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+
+        position: absolute;
+        left: 30%;
+        transform: translateX(-20%);
+        bottom: 2.2rem;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .section {
+      padding: 0 3rem;
+    }
+    .selected-news {
+      flex-direction: row;
+      justify-content: space-between;
+      max-width: 100%;
+      gap: 3rem;
+
+      .selected-news__content {
+        max-width: 762px;
+        flex: 1;
+      }
+      .selected-news__img {
+        flex: 1;
+        max-width: 352px;
+        margin: 0;
+      }
+    }
+  }
+
+  @media (min-width: 930px) {
+    padding-top: 10rem;
+  }
+
+  @media (min-width: 1024px) {
+    .section {
+      padding: 0 4rem;
+    }
+    .selected-news {
+      .selected-news__content {
+        span {
+          font-size: 1.6rem;
+          line-height: 2rem;
+        }
+
+        h1 {
+          margin-bottom: 2rem;
+
+          &:before {
+            width: 111px;
+          }
+        }
+
+        p {
+          font-size: 1.5rem;
+          line-height: 2.5rem;
+          margin-bottom: 1.2rem;
+        }
+      }
+    }
+  }
+}

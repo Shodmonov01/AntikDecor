@@ -1,0 +1,27 @@
+.add-to-cart-btn {
+	font-size: 1.1rem;
+	line-height: 1.4rem;
+	font-weight: 700;
+	color: #fff;
+	padding: 1.8rem 4.55rem;
+	border: 1px solid #ea5544;
+	background-color: #ea5544;
+	@media (min-width: 1024px) {
+		font-size: 1.2rem;
+		line-height: 1.534rem;
+		padding: 1.8rem 6.3rem;
+		transition: all 120ms linear;
+		&:hover {
+			cursor: pointer;
+			background-color: transparent;
+			color: #ea5544;
+		}
+	}
+}
+button[disabled=''] {
+	&:hover {
+		cursor: not-allowed;
+		background-color: #ea554450;
+		color: #fff;
+	}
+}

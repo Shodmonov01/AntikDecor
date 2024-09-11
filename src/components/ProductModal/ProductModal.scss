@@ -1,0 +1,54 @@
+.product-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .product-modal__content {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    padding: 10px;
+
+    .product-modal__img {
+      height: 100%;
+    }
+    .product-modal__close {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.699);
+  }
+  @media (min-width: 1440px) {
+    .product-modal__content {
+      .product-modal__close {
+        top: 2rem;
+      }
+      .product-modal__close {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        cursor: pointer;
+        width: 25px;
+      }
+    }
+  }
+}
